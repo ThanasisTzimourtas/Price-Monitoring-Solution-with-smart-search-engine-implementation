@@ -249,7 +249,7 @@ if __name__ == '__main__':
     soup = BeautifulSoup(html_content, 'html.parser')
 
     # Give the name that you are looking for 
-    product_name =input('Give the name of the product you are looking for: ') #'Samsung Galaxy A20e Dual (32GB) Black' input('Give the name of the product you are looking for: ')
+    product_name =input('Give the name of the product you are looking for: ')
     question = product_name.lower()
 
     corpus = search(soup)
